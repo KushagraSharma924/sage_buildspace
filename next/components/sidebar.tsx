@@ -12,12 +12,12 @@ const sidebar = () => {
             </svg>
           </div>
         </a>
-        <div  className="flex w-full flex-col gap-0 pt-4 md:pr-6">
+        <div  className="text-gray-600 flex w-full flex-col gap-0 pt-4 md:pr-6">
           <a href="/">
-            <button  className="relative inline-flex items-center justify-center rounded-md font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 text-base leading-none text-muted-foreground shadow-none hover:text-primary px-0 py-2 h-auto">discover</button>
+            <button  className="hover:text-gray-400 relative inline-flex items-center justify-center rounded-md font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 text-base leading-none text-muted-foreground shadow-none hover:text-primary px-0 py-2 h-auto">discover</button>
           </a>
           <a href="/projects">
-            <button  className="relative inline-flex items-center justify-center rounded-md font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 text-base leading-none text-muted-foreground shadow-none hover:text-primary px-0 py-2 h-auto">projects</button>
+            <button  className="hover:text-gray-400 relative inline-flex items-center justify-center rounded-md font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 text-base leading-none text-muted-foreground shadow-none hover:text-primary px-0 py-2 h-auto">projects</button>
           </a>
           <div  className="my-3 w-full border-b border-dashed text-gray-900"></div>
           <p  className="text-base font-medium leading-6 tracking-base pr-6 text-muted-foreground">welcome to sage, a place to find dope people building cool shit.</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carousel: React.FC = () => {
   return (
-    <main className="flex w-full flex-1 flex-col md:pl-[272px] lg:pr-0">
+    <main className=" flex w-full flex-1 flex-col md:pl-[272px] lg:pr-0">
       <div className="pt-8 min-h-[calc(100dvh-57px)] md:min-h-dvh flex flex-col gap-16">
         <div className="my-auto mx-auto flex flex-col gap-16">
           <h1 className="text-5xl font-extrabold tracking-tighter sm:text-7xl text-center">
@@ -89,36 +89,36 @@ const Carousel: React.FC = () => {
             {/* Carousel for Buttons */}
             <div className="relative max-w-sm md:max-w-md lg:max-w-2xl xl:max-w-4xl" role="region" aria-roledescription="carousel">
               <div className="overflow-hidden">
-                <div className="flex -ml-4" style={{ transform: 'translate3d(-1716.7px, 0px, 0px)' }}>
+                <div className="border-color: rgb(30 41 59) flex -ml-4" style={{ transform: 'translate3d(-1716.7px, 0px, 0px)' }}>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max" style={{ transform: 'translate3d(2480px, 0px, 0px)' }}>
                     <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">show me hardware people</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">looking for a marketer</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">looking for a marketer</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">need a producer for my album</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">need a producer for my album</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">i need to hire a react engineer</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">i need to hire a react engineer</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">show me content creators</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">show me content creators</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">experts on tiktok</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">experts on tiktok</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">who are some people i should invest in?</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">who are some people i should invest in?</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">tell me the legend of naveed</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">tell me the legend of naveed</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">i'm building in gaming</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">i'm building in gaming</button>
                   </div>
                   <div role="group" aria-roledescription="slide" className="shrink-0 grow-0 basis-full pl-4 mr-0 min-w-max max-w-max">
-                    <button className="cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">show me fast growing projects</button>
+                    <button className="border-color: rgb(30 41 59) cursor-pointer border px-4 py-2 text-muted-foreground hover:text-primary">show me fast growing projects</button>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Carousel: React.FC = () => {
       <div className="sticky mt-auto md:max-w-xl bottom-0 mx-auto w-full bg-background/70 backdrop-blur-md">
         <div className="flex flex-col gap-4 border-t py-4 md:border-none px-4 md:px-0 md:py-6">
           <form>
-            <div className="relative flex w-full grow flex-col justify-center overflow-hidden border bg-background">
+            <div className="border-color: rgb(30 41 59) relative flex w-full grow flex-col justify-center overflow-hidden border bg-background">
               <textarea
                 tabIndex={0}
                 rows={1}
@@ -140,7 +140,7 @@ const Carousel: React.FC = () => {
                 className="w-full resize-none overflow-hidden bg-transparent py-3 pl-4 pr-10 outline-none placeholder:text-muted-foreground focus-within:outline-none"
                 style={{ height: '48px !important' }}
               />
-              <div className="absolute right-2 z-10 flex items-center gap-1 sm:right-2">
+              <div className=" absolute right-2 z-10 flex items-center gap-1 sm:right-2">
                 <button
                   disabled
                   className="relative inline-flex items-center justify-center rounded-md text-base font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 shadow-none hover:bg-accent size-8 p-0 hover:text-primary/50 cursor-pointer"
