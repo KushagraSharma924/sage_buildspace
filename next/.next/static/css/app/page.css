@@ -25,6 +25,7 @@
   overflow: hidden;
   white-space: nowrap;
   position: relative;
+  width: calc(100% * 2);
 }
 
 .carousel {
