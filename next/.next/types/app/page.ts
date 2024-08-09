@@ -1,4 +1,4 @@
-// File: /Users/kushagra/Desktop/sage_buildspace_/next/app/page.tsx
+// File: /Users/kushagra/Desktop/project/sage_buildspace/next/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

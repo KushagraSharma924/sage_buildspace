@@ -1,15 +1,16 @@
 /* Define keyframes for continuous scrolling */
-@keyframes scroll-right {
+@keyframes scroll-left {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
-@keyframes scroll-left{
+
+@keyframes scroll-right {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   100% {
     transform: translateX(0);
@@ -25,18 +26,20 @@
 
 .carousel {
   display: flex;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 10s linear infinite;
+  /* Duplicate content */
 }
 
 /* Adjust for buttons carousel */
 .top-button-carousel {
   display: flex;
-  animation: scroll-right 20s linear infinite;
+  animation: scroll-right 10s linear infinite;
+  transition: ease-in-out;
 }
-/* Adjust for buttons carousel */
+
 .bottom-button-carousel {
   display: flex;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 10s linear infinite;
 }
 
 /* Ensure all carousel items are in a row */
