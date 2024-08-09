@@ -1,22 +1,22 @@
 /*!*********************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/App.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************/
-/* Define keyframes for continuous scrolling */
+/* Define keyframes for continuous scrolling using translate3d */
 @keyframes scroll-left {
   0% {
-    transform: translateX(0);
+    transform: translate3d(0%, 0, 0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translate3d(-25%, 0, 0);
   }
 }
 
 @keyframes scroll-right {
   0% {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
   100% {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -31,6 +31,7 @@
 .carousel {
   display: flex;
   animation: scroll-left 10s linear infinite;
+  scroll-behavior: smooth;
   /* Duplicate content */
 }
 
@@ -38,7 +39,7 @@
 .top-button-carousel {
   display: flex;
   animation: scroll-right 10s linear infinite;
-  transition: ease-in-out;
+  scroll-behavior: smooth;
 }
 
 .bottom-button-carousel {

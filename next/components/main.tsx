@@ -6,7 +6,7 @@ const Carousel: React.FC = () => {
     <main className="flex w-full flex-1 flex-col md:pl-[272px] lg:pr-0">
       <div className="pt-8 min-hover:text-white h-[calc(100dvh-7px)] md:min-hover:text-white flex flex-col gap-16">
         <div className="my-18 mx-auto flex flex-col gap-16">
-          <h1 className="text-5xl font-extrabold tracking-tighter sm:text-7xl text-center">
+          <h1 className="text-5xl font-extrabold font-sans tracking-tighter sm:text-6xl text-center">
             find and<br />be found.
           </h1>
           <div className="flex flex-col gap-4">
@@ -14,7 +14,7 @@ const Carousel: React.FC = () => {
             <div className="relative hover:text-white h-64 max-w-sm md:max-w-md lg:max-w-2xl xl:max-w-6xl carousel-container" role="region" aria-roledescription="carousel">
               <div className="carousel">
                 {/* Slide 1 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -26,17 +26,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg ">Mattia</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg text-gray-300 ">Mattia</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left text-gray-500">
                         building a visual landing page builder for developers
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 2 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -48,17 +48,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Kelli</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Kelli</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         building a visual landing page builder for developers
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 3 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -70,17 +70,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Alec</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 4 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px] ">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px] ">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -92,17 +92,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Alec</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 5 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px] border-[#0a0a0a]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px] border-[#0a0a0a]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -114,17 +114,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Alec</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 6 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -136,17 +136,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Alec</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 7 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -158,17 +158,17 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Alec</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
                       </h4>
                     </div>
                   </div>
                 </div>
                 {/* Slide 8 */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
+                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[200px]">
                   <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100 border-[#3a3a3a]">
                     <div className="p-3 flex flex-col gap-0">
                       <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2 border-[#3a3a3a]">
@@ -180,37 +180,15 @@ const Carousel: React.FC = () => {
                           className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
                         />
                       </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
+                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg  text-gray-300">Alec</h3>
                     </div>
                     <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
+                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left  text-gray-500">
                         crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
                       </h4>
                     </div>
                   </div>
-                </div>
-                {/* Additional Slides */}
-                <div role="group" aria-roledescription="slide" className="carousel-item shrink-0 grow-0 basis-full pl-4 max-w-[240px]">
-                  <div className="border text-card-foreground shadow-md group hover:text-white h-64 bg-transparent cursor-pointer opacity-80 hover:opacity-100">
-                    <div className="p-3 flex flex-col gap-0">
-                      <span className="group relative flex shrink-0 items-center justify-center overflow-hidden border bg-secondary size-14 w-full min-hover:text-white h-[96px] mb-2">
-                        <img
-                          alt="Alec"
-                          loading="lazy"
-                          decoding="async"
-                          src="https://sapi.buildspace.so/storage/v1/render/image/public/assets/477b3b94-21b0-4202-a1f8-94ae259bb057/j0lgaOa?width=3840&resize=contain&quality=75"
-                          className="aspect-square size-full object-cover grayscale group-hover:grayscale-0"
-                        />
-                      </span>
-                      <h3 className="tracking-tight line-clamp-1 text-left font-medium text-lg lg:text-lg">Alec</h3>
-                    </div>
-                    <div className="p-3 pt-0">
-                      <h4 className="font-semibold tracking-tight line-clamp-3 truncate whitespace-break-spaces text-muted-foreground text-sm pb-0 text-left">
-                        crafting the next-gen builder community & fine-tuning cod loadouts with badgunny
-                      </h4>
-                    </div>
-                  </div>
-                </div>
+                </div>    
               </div>
             </div>
 
